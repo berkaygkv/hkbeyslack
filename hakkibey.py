@@ -101,14 +101,15 @@ class HakkiBey():
                             entries.append(pr)
 
                 if entries:
+                    entries.reverse()
                     current_time = datetime.datetime.now(pytz.UTC)
                     for d,entry in enumerate(entries):
                         entry_timestamp, entry_text= entry[0], entry[1]
                         remaining = (current_time - entry_timestamp.replace(tzinfo=pytz.UTC)).total_seconds()
                         remaining_in_min = round(remaining / 60)
                         tracker = f"{entry_timestamp} - {round(remaining / 60)}"
-
                         if remaining_in_min < self.expired_threshold:
+                            print(tracker)
                             if d == 0:
                                 msg = client.chat_postMessage(channel='#upwork', text='@berkaygokova', link_names = 1)
                                 self.msg_to_track.update({msg['ts']: entry_timestamp})

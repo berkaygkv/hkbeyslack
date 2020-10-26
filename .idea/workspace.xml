@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e9ec661-4bf6-48f4-957b-806c8dca5b03" name="Default Changelist" comment="" />
+    <list default="true" id="9e9ec661-4bf6-48f4-957b-806c8dca5b03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hakkibey.py" beforeDir="false" afterPath="$PROJECT_DIR$/hakkibey.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
