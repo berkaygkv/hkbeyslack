@@ -82,7 +82,7 @@ class HakkiBey():
             if last_time_check > self.cycle_time:
                 entries=[]
                 nfeed = feedparser.parse(self.feed_url)
-                print(f"\rFeed status: {nfeed['status']} /// # of entries: {len(nfeed.entries)} /// Last time parsed: {current_local_time}",end='\n')
+                print(f"Feed status: {nfeed['status']} /// # of entries: {len(nfeed.entries)} /// Last time parsed: {current_local_time}")
                 current_local_time = datetime.datetime.now(pytz.timezone('Turkey')).strftime('%H:%M')
 
                 for n in nfeed.entries:
@@ -144,6 +144,6 @@ class HakkiBey():
                 if len(urls) % 250 == 0:
                     urls=[]
                 d+=1
-            print(f"\rCurrent Date: {datetime.datetime.now()} / Last check: {last_time_check}", end='')
+            print(f"Current Date: {datetime.datetime.now()} / Last check: {last_time}")
 session = HakkiBey(cleaner=True)
 session.main()
