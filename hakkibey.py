@@ -144,6 +144,6 @@ class HakkiBey():
                 if len(urls) % 250 == 0:
                     urls=[]
                 d+=1
-
+            print(f"\rCurrent Date: {datetime.datetime.now()} / Last check: {last_time_check}", end='')
 session = HakkiBey(cleaner=True)
 session.main()
