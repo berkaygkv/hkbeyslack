@@ -15,16 +15,13 @@ class HakkiBey():
     def __init__(self, cleaner=False):
 
         env_path = Path('.') / '.editorconfig'
-        
-        username = 'berkaygkv'
-        password = '4yK6sgp00'
-        server = 'berkayg.c6z1kt9zpxp2.eu-central-1.rds.amazonaws.com,1433'
-        database = 'Upwork'
-        print('USERNAME: ',username)
-        self.conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database +';UID=' + username + ';PWD=' + password, autocommit=True)
-        self.cursor = self.conn.cursor()
+        if os.path.exists('.editorconfig'):
+            load_dotenv(dotenv_path=env_path)
 
-        load_dotenv(dotenv_path=env_path)
+        username = os.environ['DB_USERNAME']
+        password = os.environ['PASSWORD']
+        server = os.environ['SERVER']
+        database = os.environ['DB']
         self.user_client = slack.WebClient(token=os.environ['USER_TOKEN'])
         self.bot_client  = slack.WebClient(token=os.environ['BOT_TOKEN'])
         self.expired_threshold = int(os.environ['EXPIRED_THRESHOLD']) #mins
@@ -32,6 +29,9 @@ class HakkiBey():
         self.feed_url = os.environ['FEED_URL']
         self.msg_to_track = {}
         self.cleaner_on = cleaner
+        self.conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database +';UID=' + username + ';PWD=' + password, autocommit=True)
+        self.cursor = self.conn.cursor()
+
 
     def message_parsing(self):
 
