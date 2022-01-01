@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 import re,time,feedparser
 import datetime
 import pytz
+import jmespath
+import pyodbc
+
 
 
 class HakkiBey():
@@ -12,6 +15,15 @@ class HakkiBey():
     def __init__(self, cleaner=False):
 
         env_path = Path('.') / '.editorconfig'
+        
+        username = 'berkaygkv'
+        password = '4yK6sgp00'
+        server = 'berkayg.c6z1kt9zpxp2.eu-central-1.rds.amazonaws.com,1433'
+        database = 'Upwork'
+        print('USERNAME: ',username)
+        self.conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + server + ';DATABASE=' + database +';UID=' + username + ';PWD=' + password, autocommit=True)
+        self.cursor = self.conn.cursor()
+
         load_dotenv(dotenv_path=env_path)
         self.user_client = slack.WebClient(token=os.environ['USER_TOKEN'])
         self.bot_client  = slack.WebClient(token=os.environ['BOT_TOKEN'])
@@ -39,6 +51,30 @@ class HakkiBey():
                     msg_to_track.update({id:value})
         self.msg_to_track = msg_to_track
 
+
+    def get_labeled_ads(self):
+        user_client = self.user_client
+        reactions_data = user_client.reactions_list(channel='C01DA5NPHDH').data
+        filtered_reactions = jmespath.search('items[*].message.text', reactions_data)
+        if filtered_reactions:
+            reacted_urls = [re.compile('(?=<).+(?=\|)').search(k).group().replace('<', '') for k in filtered_reactions if re.compile('(?=<).+(?=\|)').search(k)]
+            timestamp_list = jmespath.search('items[*].message.ts', reactions_data)
+            # for i in enumerate(timestamp_list):
+            #     try:
+            #         user_client.chat_delete(channel='C01DA5NPHDH', ts=i)
+            #     except:
+            #         pass
+            #     time.sleep(1.5)
+            for i in reacted_urls:
+                self.cursor.execute("UPDATE Jobs_table SET Label = 1 WHERE URL = (?)", i)
+
+        else:
+            reacted_urls = []
+
+        time.sleep(1)
+        return reacted_urls
+
+
     def delete_messages(self):
 
         user_client = self.user_client
@@ -59,7 +95,7 @@ class HakkiBey():
             self.delete_messages()
         client = self.bot_client
         list_of_words = ['data analysis', 'data extraction', 'automation', 'automated', 'bot', 'scraper', 'scraped',
-                         'scraping', 'scrape', 'stock', 'email', 'Scripting &amp; Automation', 'Web Scraper']
+                         'scraping', 'scrape', 'stock', 'email', 'Scripting &amp; Automation', 'Web Scraper', 'prediction', 'machine learning']
 
         hr=r'Hourly Range</b>:.+\n\n<br'
         posted =r'Posted On</b>: .+UTC'
@@ -121,6 +157,13 @@ class HakkiBey():
                             pr = [utc_time,f":pushpin:\n\n*{n['title']}*\n>\n\n```{txt}```\n\nPosted On: {posted_val}\nBudget: `{hr_val}`\nURL: <{url}|Job *Link*:bomb:>\n\n--------------------------------------------------"]
                             urls.append(url)
                             entries.append(pr)
+                            entry_timestamp = utc_time
+                            current_time = datetime.datetime.now(pytz.UTC)
+                            time_passed = (current_time - entry_timestamp.replace(tzinfo=pytz.UTC)).total_seconds()
+                            time_passed_in_min = round(time_passed / 60)
+                            if time_passed_in_min < self.expired_threshold:
+                                query = f"INSERT INTO Jobs_table (Title, Skills, Category, Description, URL, Label) VALUES (?, ?, ?, ?, ?, ?)" 
+                                self.cursor.execute(query, [n['title'], skills_val, cat_val, txt, url, 0])
 
                 if entries:
                     entries.reverse()
@@ -144,6 +187,9 @@ class HakkiBey():
                 if len(urls) % 250 == 0:
                     urls=[]
                 d+=1
-            print(f"Current Date: {datetime.datetime.now()} / Last check: {last_time}")
+            #print('Labeling...')
+            _ = self.get_labeled_ads()
+
+            
 session = HakkiBey(cleaner=True)
 session.main()

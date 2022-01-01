@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title><![CDATA[All My Job Feed (all saved searches combined) jobs | upwork.com]]></title><link><![CDATA[https://www.upwork.com/ab/feed/topics/rss?orgUid=1237410621309812737&amp;securityToken=651241ff405fff6c20c746182c17e4ad9dbe219e2843ea054fbc62b51dcc17b128f7c941d3e64d0c0efb318c8f27c5dded7102bbd3ae183b1ab23f73da3fe5a3&amp;userUid=1237410621297229824]]></link><description><![CDATA[All My Job Feed (all saved searches combined) jobs as of January 01, 2022 14:01 UTC]]></description><language>en-us</language><pubDate>Sat, 01 Jan 2022 14:01:16 +0000</pubDate><copyright>© 2003-2022 Upwork Corporation</copyright><docs>http://blogs.law.harvard.edu/tech/rss</docs><generator>Upwork Corporation</generator><managingEditor>rss@upwork.com (Upwork Corporation)</managingEditor><image><url>https://www.upwork.com/images/rss_logo.png</url><title><![CDATA[All My Job Feed (all saved searches combined) jobs | upwork.com]]></title><link><![CDATA[https://www.upwork.com/ab/feed/topics/rss?orgUid=1237410621309812737&amp;securityToken=651241ff405fff6c20c746182c17e4ad9dbe219e2843ea054fbc62b51dcc17b128f7c941d3e64d0c0efb318c8f27c5dded7102bbd3ae183b1ab23f73da3fe5a3&amp;userUid=1237410621297229824]]></link></image><item><title><![CDATA[Data scrape for contact information  - Upwork]]></title><link>https://www.upwork.com/jobs/Data-scrape-for-contact-information_%7E019a69b8e0acf51c1c?source=rss</link><description><![CDATA[Looking to receive either an excel or Google sheets file which contains scrapped data. <br /><br />
+The data I need is all contact information for the owner. I already have a list of 3k&nbsp;&nbsp;&ldquo;pediatric occupational therapy clinic&rdquo; where this data came from a google maps scrape. I am OK, for you to use this data as a starting point in order to keep the costs low or you may start from scratch.<br /><br />
+Optional, if you are able to send Linked-In Messages from my account to each of the owners soliciting our goods for sale, there will be additional payment available. <br /><br /><br /><b>Budget</b>: $50
+<br /><b>Posted On</b>: January 01, 2022 13:42 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     Python,     Data Mining,     Lead Generation,     List Building    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Data-scrape-for-contact-information_%7E019a69b8e0acf51c1c?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Looking to receive either an excel or Google sheets file which contains scrapped data. <br /><br />
+The data I need is all contact information for the owner. I already have a list of 3k&nbsp;&nbsp;&ldquo;pediatric occupational therapy clinic&rdquo; where this data came from a google maps scrape. I am OK, for you to use this data as a starting point in order to keep the costs low or you may start from scratch.<br /><br />
+Optional, if you are able to send Linked-In Messages from my account to each of the owners soliciting our goods for sale, there will be additional payment available. <br /><br /><br /><b>Budget</b>: $50
+<br /><b>Posted On</b>: January 01, 2022 13:42 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     Python,     Data Mining,     Lead Generation,     List Building    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Data-scrape-for-contact-information_%7E019a69b8e0acf51c1c?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 13:42:44 +0000</pubDate><guid>https://www.upwork.com/jobs/Data-scrape-for-contact-information_%7E019a69b8e0acf51c1c?source=rss</guid></item><item><title><![CDATA[Cruise price grabber - Upwork]]></title><link>https://www.upwork.com/jobs/Cruise-price-grabber_%7E01a3b585b96124224b?source=rss</link><description><![CDATA[Need to make a MSC cruise price grabber from their website from all languages. Save them in database and show html page with them sorted by price in EUR.<br /><br />
+Description:<br />
+MSC company has separate website version with cruises for different countries and has prices different.<br />
+For example msccrociere.it is for Italy and msckreuzfahrten.at is for Austria<br />
+Some cruise &amp;quot;7 days mediterraneo&amp;quot; on first one cost 500 euro on second one 600 euro.<br />
+Need to save them to database and then show them together on list html for example:<br /><br />
+cruise ship | cruise date | price in eur | price in website currency | number of nights | price per night | name of cruise (title) | route of cruise (if possible) | port of embark | port of disembark<br /><br />
+Fantasia | 08/01/2022 | 600 | 719 usd | 7 | 42 | MEDITERRANEAN | France, Italy, Spain | Marseille, France | Marseille, France<br /><br /><br />
+We will run this script once a day.<br />
+here is list with all countries to parse (not all really, about 50 websites)<br />
+https://www.msccruises.com/en-gl/Select-Your-Country.aspx<br /><br />
+So should be 2 scripts first one which is parsing website once a day (cron is ok), second one just reads db and sorts by price and filters with date.<br /><br />
+The trickest part is to scrap websites, not all of them have the same structure, some has ajax loading, need to deal with all variants. Please check well websites FIRST to apply. And write word FIRST at start of the application.<br /><br />
+Should be also filter by date:<br />
+script.php/cruise/msc.html default today price of cruise<br />
+script.php/cruise/msc.html?date=2021-12-01 price on that data of cruises<br /><br />
+Example (similar) is attached.<br /><br /><b>Budget</b>: $70
+<br /><b>Posted On</b>: January 01, 2022 13:36 UTC<br /><b>Category</b>: Full Stack Development<br /><b>Skills</b>:JavaScript,     PHP,     HTML,     Web Programming,     Scraper    
+<br /><b>Country</b>: Moldova
+<br /><a href="https://www.upwork.com/jobs/Cruise-price-grabber_%7E01a3b585b96124224b?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Need to make a MSC cruise price grabber from their website from all languages. Save them in database and show html page with them sorted by price in EUR.<br /><br />
+Description:<br />
+MSC company has separate website version with cruises for different countries and has prices different.<br />
+For example msccrociere.it is for Italy and msckreuzfahrten.at is for Austria<br />
+Some cruise &amp;quot;7 days mediterraneo&amp;quot; on first one cost 500 euro on second one 600 euro.<br />
+Need to save them to database and then show them together on list html for example:<br /><br />
+cruise ship | cruise date | price in eur | price in website currency | number of nights | price per night | name of cruise (title) | route of cruise (if possible) | port of embark | port of disembark<br /><br />
+Fantasia | 08/01/2022 | 600 | 719 usd | 7 | 42 | MEDITERRANEAN | France, Italy, Spain | Marseille, France | Marseille, France<br /><br /><br />
+We will run this script once a day.<br />
+here is list with all countries to parse (not all really, about 50 websites)<br />
+https://www.msccruises.com/en-gl/Select-Your-Country.aspx<br /><br />
+So should be 2 scripts first one which is parsing website once a day (cron is ok), second one just reads db and sorts by price and filters with date.<br /><br />
+The trickest part is to scrap websites, not all of them have the same structure, some has ajax loading, need to deal with all variants. Please check well websites FIRST to apply. And write word FIRST at start of the application.<br /><br />
+Should be also filter by date:<br />
+script.php/cruise/msc.html default today price of cruise<br />
+script.php/cruise/msc.html?date=2021-12-01 price on that data of cruises<br /><br />
+Example (similar) is attached.<br /><br /><b>Budget</b>: $70
+<br /><b>Posted On</b>: January 01, 2022 13:36 UTC<br /><b>Category</b>: Full Stack Development<br /><b>Skills</b>:JavaScript,     PHP,     HTML,     Web Programming,     Scraper    
+<br /><b>Country</b>: Moldova
+<br /><a href="https://www.upwork.com/jobs/Cruise-price-grabber_%7E01a3b585b96124224b?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 13:36:48 +0000</pubDate><guid>https://www.upwork.com/jobs/Cruise-price-grabber_%7E01a3b585b96124224b?source=rss</guid></item><item><title><![CDATA[Python Quant Developer with experience in Backtrader / Freqtrade - Upwork]]></title><link>https://www.upwork.com/jobs/Python-Quant-Developer-with-experience-Backtrader-Freqtrade_%7E01522eb6173c8872ad?source=rss</link><description><![CDATA[I&#039;m looking for an experienced quant python developer for long-term cooperation. <br />
+This will include creating some educational material, working on internal and external projects of the company. <br />
+Skills I&#039;m looking for: <br />
+- Solid experience in Python for different Quantitative / Backtesting projects. <br />
+- Experience in one or more backtesting frameworks like Backtrader, Freqtrade, etc. <br />
+Nice to have: <br />
+- Basic experience/understanding of PineScript<br />
+- Experience in R for any quant projects.&nbsp;&nbsp;<br /><br /><br /><br /><b>Hourly Range</b>: $15.00-$35.00
+
+<br /><b>Posted On</b>: December 18, 2021 13:39 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:Python,     Data Analysis    
+<br /><b>Country</b>: Switzerland
+<br /><a href="https://www.upwork.com/jobs/Python-Quant-Developer-with-experience-Backtrader-Freqtrade_%7E01522eb6173c8872ad?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I&#039;m looking for an experienced quant python developer for long-term cooperation. <br />
+This will include creating some educational material, working on internal and external projects of the company. <br />
+Skills I&#039;m looking for: <br />
+- Solid experience in Python for different Quantitative / Backtesting projects. <br />
+- Experience in one or more backtesting frameworks like Backtrader, Freqtrade, etc. <br />
+Nice to have: <br />
+- Basic experience/understanding of PineScript<br />
+- Experience in R for any quant projects.&nbsp;&nbsp;<br /><br /><br /><br /><b>Hourly Range</b>: $15.00-$35.00
+
+<br /><b>Posted On</b>: December 18, 2021 13:39 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:Python,     Data Analysis    
+<br /><b>Country</b>: Switzerland
+<br /><a href="https://www.upwork.com/jobs/Python-Quant-Developer-with-experience-Backtrader-Freqtrade_%7E01522eb6173c8872ad?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 18 Dec 2021 13:39:36 +0000</pubDate><guid>https://www.upwork.com/jobs/Python-Quant-Developer-with-experience-Backtrader-Freqtrade_%7E01522eb6173c8872ad?source=rss</guid></item><item><title><![CDATA[Botting an android app - Upwork]]></title><link>https://www.upwork.com/jobs/Botting-android-app_%7E01d34f96ea63f96a27?source=rss</link><description><![CDATA[I need someone to create a bot that cops daily drops from an android app.<br />
+Make sure to apply for the long term project. <br /><br /><b>Budget</b>: $100
+<br /><b>Posted On</b>: January 01, 2022 12:54 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Bot Development,     Python,     Selenium WebDriver,     Automation,     Google Sheets,     Google APIs,     Data Scraping,     Reddit    
+<br /><b>Country</b>: Germany
+<br /><a href="https://www.upwork.com/jobs/Botting-android-app_%7E01d34f96ea63f96a27?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I need someone to create a bot that cops daily drops from an android app.<br />
+Make sure to apply for the long term project. <br /><br /><b>Budget</b>: $100
+<br /><b>Posted On</b>: January 01, 2022 12:54 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Bot Development,     Python,     Selenium WebDriver,     Automation,     Google Sheets,     Google APIs,     Data Scraping,     Reddit    
+<br /><b>Country</b>: Germany
+<br /><a href="https://www.upwork.com/jobs/Botting-android-app_%7E01d34f96ea63f96a27?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 12:54:50 +0000</pubDate><guid>https://www.upwork.com/jobs/Botting-android-app_%7E01d34f96ea63f96a27?source=rss</guid></item><item><title><![CDATA[Red spider plant disease using deep learning interface - Upwork]]></title><link>https://www.upwork.com/jobs/Red-spider-plant-disease-using-deep-learning-interface_%7E010e84fcc5e6b7f1de?source=rss</link><description><![CDATA[i need interface in red plant disease using deep learning&nbsp;&nbsp;... so i have sample image in this plant disease so the idea of this project that when you upload the photo of this plant disease you can show the disease rate and detection if this leaf is detection or not <br /><br /><b>Hourly Range</b>: $20.00-$50.00
+
+<br /><b>Posted On</b>: January 01, 2022 12:52 UTC<br /><b>Category</b>: Deep Learning<br /><b>Skills</b>:Deep Learning,     Neural Networks,     Machine Learning    
+<br /><b>Country</b>: Jordan
+<br /><a href="https://www.upwork.com/jobs/Red-spider-plant-disease-using-deep-learning-interface_%7E010e84fcc5e6b7f1de?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[i need interface in red plant disease using deep learning&nbsp;&nbsp;... so i have sample image in this plant disease so the idea of this project that when you upload the photo of this plant disease you can show the disease rate and detection if this leaf is detection or not <br /><br /><b>Hourly Range</b>: $20.00-$50.00
+
+<br /><b>Posted On</b>: January 01, 2022 12:52 UTC<br /><b>Category</b>: Deep Learning<br /><b>Skills</b>:Deep Learning,     Neural Networks,     Machine Learning    
+<br /><b>Country</b>: Jordan
+<br /><a href="https://www.upwork.com/jobs/Red-spider-plant-disease-using-deep-learning-interface_%7E010e84fcc5e6b7f1de?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 12:52:49 +0000</pubDate><guid>https://www.upwork.com/jobs/Red-spider-plant-disease-using-deep-learning-interface_%7E010e84fcc5e6b7f1de?source=rss</guid></item><item><title><![CDATA[Forex strategy coding - Upwork]]></title><link>https://www.upwork.com/jobs/Forex-strategy-coding_%7E0105447a080c8ed93e?source=rss</link><description><![CDATA[Am looking for a professional developer to code my forex strategy<br /><br /><b>Budget</b>: $500
+<br /><b>Posted On</b>: January 01, 2022 12:47 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Forex Trading,     Coding,     HTML,     Python    
+<br /><b>Country</b>: Singapore
+<br /><a href="https://www.upwork.com/jobs/Forex-strategy-coding_%7E0105447a080c8ed93e?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Am looking for a professional developer to code my forex strategy<br /><br /><b>Budget</b>: $500
+<br /><b>Posted On</b>: January 01, 2022 12:47 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Forex Trading,     Coding,     HTML,     Python    
+<br /><b>Country</b>: Singapore
+<br /><a href="https://www.upwork.com/jobs/Forex-strategy-coding_%7E0105447a080c8ed93e?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 12:47:27 +0000</pubDate><guid>https://www.upwork.com/jobs/Forex-strategy-coding_%7E0105447a080c8ed93e?source=rss</guid></item><item><title><![CDATA[Machine learning &amp; python - Upwork]]></title><link>https://www.upwork.com/jobs/Machine-learning-amp-python_%7E01b24db4e3e5ffed85?source=rss</link><description><![CDATA[Looking for someone to assist me with schoolwork,<br />
+I have a CSV file with data, and I have a WORD document with explanations of the database.<br />
+Please solve the exercise for me (it&#039;s pretty simple).<br /><br /><br />
+I have a lot of work in this class... if you can do it well and fast, it will be great to work together.<br /><br />
+Inside the ZIP you need:<br /><br />
+DOC - dataDescription (English version attach)<br />
+CSV - dataset<br />
+IPYNB - Ex3<br /><br />
+You only need these files.<br />
+Solve it simply, not with complex code.<br /><br /><br /><br /><b>Budget</b>: $25
+<br /><b>Posted On</b>: January 01, 2022 12:44 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:Machine Learning Model,     Python,     Machine Learning,     Data Science    
+<br /><b>Country</b>: Israel
+<br /><a href="https://www.upwork.com/jobs/Machine-learning-amp-python_%7E01b24db4e3e5ffed85?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Looking for someone to assist me with schoolwork,<br />
+I have a CSV file with data, and I have a WORD document with explanations of the database.<br />
+Please solve the exercise for me (it&#039;s pretty simple).<br /><br /><br />
+I have a lot of work in this class... if you can do it well and fast, it will be great to work together.<br /><br />
+Inside the ZIP you need:<br /><br />
+DOC - dataDescription (English version attach)<br />
+CSV - dataset<br />
+IPYNB - Ex3<br /><br />
+You only need these files.<br />
+Solve it simply, not with complex code.<br /><br /><br /><br /><b>Budget</b>: $25
+<br /><b>Posted On</b>: January 01, 2022 12:44 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:Machine Learning Model,     Python,     Machine Learning,     Data Science    
+<br /><b>Country</b>: Israel
+<br /><a href="https://www.upwork.com/jobs/Machine-learning-amp-python_%7E01b24db4e3e5ffed85?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 12:44:34 +0000</pubDate><guid>https://www.upwork.com/jobs/Machine-learning-amp-python_%7E01b24db4e3e5ffed85?source=rss</guid></item><item><title><![CDATA[MQL4 MQL5 programming
+meta trader 4 meta trader 5 - Upwork]]></title><link>https://www.upwork.com/jobs/MQL4-MQL5-programming-meta-trader-meta-trader_%7E0110a3c6f9fd0f5656?source=rss</link><description><![CDATA[Looking for medium level Scripting &amp;amp; Automation specialist.<br /><br /><br /><b>Posted On</b>: January 01, 2022 12:30 UTC<br /><b>Category</b>: Scripting &amp; Automation
+<br /><b>Country</b>: Morocco
+<br /><a href="https://www.upwork.com/jobs/MQL4-MQL5-programming-meta-trader-meta-trader_%7E0110a3c6f9fd0f5656?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Looking for medium level Scripting &amp;amp; Automation specialist.<br /><br /><br /><b>Posted On</b>: January 01, 2022 12:30 UTC<br /><b>Category</b>: Scripting &amp; Automation
+<br /><b>Country</b>: Morocco
+<br /><a href="https://www.upwork.com/jobs/MQL4-MQL5-programming-meta-trader-meta-trader_%7E0110a3c6f9fd0f5656?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 12:30:55 +0000</pubDate><guid>https://www.upwork.com/jobs/MQL4-MQL5-programming-meta-trader-meta-trader_%7E0110a3c6f9fd0f5656?source=rss</guid></item><item><title><![CDATA[Image Generation - Upwork]]></title><link>https://www.upwork.com/jobs/Image-Generation_%7E0135bd81d81e86d309?source=rss</link><description><![CDATA[I want an expert who can consult on and implement standard StyleGAN2 or SRGAN for Buddha face images. Given a custom dataset of Buddha images, I want the GAN to produce images with variety of the kind in the attached images. I want the cost of training to be less than $50 (so 20-40 hours or so).<br /><br /><b>Budget</b>: $75
+<br /><b>Posted On</b>: January 01, 2022 12:28 UTC<br /><b>Category</b>: Deep Learning<br /><b>Skills</b>:TensorFlow,     Deep Learning,     Neural Networks,     Python    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Image-Generation_%7E0135bd81d81e86d309?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I want an expert who can consult on and implement standard StyleGAN2 or SRGAN for Buddha face images. Given a custom dataset of Buddha images, I want the GAN to produce images with variety of the kind in the attached images. I want the cost of training to be less than $50 (so 20-40 hours or so).<br /><br /><b>Budget</b>: $75
+<br /><b>Posted On</b>: January 01, 2022 12:28 UTC<br /><b>Category</b>: Deep Learning<br /><b>Skills</b>:TensorFlow,     Deep Learning,     Neural Networks,     Python    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Image-Generation_%7E0135bd81d81e86d309?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 12:28:09 +0000</pubDate><guid>https://www.upwork.com/jobs/Image-Generation_%7E0135bd81d81e86d309?source=rss</guid></item><item><title><![CDATA[Ecommerce scraping - fashion, 150k items - Upwork]]></title><link>https://www.upwork.com/jobs/Ecommerce-scraping-fashion-150k-items_%7E01bd7a48f2ef376f16?source=rss</link><description><![CDATA[Ecommerce scraping, one website, 150k items. Also want to pull down and store product images on a google cloudstore location.<br /><br />
+Output in flat JSON structure. See attached file.<br /><br /><b>Hourly Range</b>: $9.00-$28.00
+
+<br /><b>Posted On</b>: January 01, 2022 11:23 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     JSON,     HTML    
+<br /><b>Country</b>: Australia
+<br /><a href="https://www.upwork.com/jobs/Ecommerce-scraping-fashion-150k-items_%7E01bd7a48f2ef376f16?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Ecommerce scraping, one website, 150k items. Also want to pull down and store product images on a google cloudstore location.<br /><br />
+Output in flat JSON structure. See attached file.<br /><br /><b>Hourly Range</b>: $9.00-$28.00
+
+<br /><b>Posted On</b>: January 01, 2022 11:23 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     JSON,     HTML    
+<br /><b>Country</b>: Australia
+<br /><a href="https://www.upwork.com/jobs/Ecommerce-scraping-fashion-150k-items_%7E01bd7a48f2ef376f16?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 11:23:10 +0000</pubDate><guid>https://www.upwork.com/jobs/Ecommerce-scraping-fashion-150k-items_%7E01bd7a48f2ef376f16?source=rss</guid></item><item><title><![CDATA[Scrape data from a website and send email alert - Upwork]]></title><link>https://www.upwork.com/jobs/Scrape-data-from-website-and-send-email-alert_%7E01e7a64048f9791fac?source=rss</link><description><![CDATA[Need to scrap image from the manufacture part numbers. The images need to be saved and rename.Web scrape movie sites like [login to view URL] for data on trending movies<br /><br /><b>Hourly Range</b>: $9.00-$28.00
+
+<br /><b>Posted On</b>: January 01, 2022 11:07 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     Data Mining,     Data Extraction,     Python,     Scrapy    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Scrape-data-from-website-and-send-email-alert_%7E01e7a64048f9791fac?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Need to scrap image from the manufacture part numbers. The images need to be saved and rename.Web scrape movie sites like [login to view URL] for data on trending movies<br /><br /><b>Hourly Range</b>: $9.00-$28.00
+
+<br /><b>Posted On</b>: January 01, 2022 11:07 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     Data Mining,     Data Extraction,     Python,     Scrapy    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Scrape-data-from-website-and-send-email-alert_%7E01e7a64048f9791fac?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 11:07:54 +0000</pubDate><guid>https://www.upwork.com/jobs/Scrape-data-from-website-and-send-email-alert_%7E01e7a64048f9791fac?source=rss</guid></item><item><title><![CDATA[Scrap thousands of profiles from Instagram and Youtube - Upwork]]></title><link>https://www.upwork.com/jobs/Scrap-thousands-profiles-from-Instagram-and-Youtube_%7E01ed2ff548c0320133?source=rss</link><description><![CDATA[Looking for someone who can build a scraper to fetch thousands of profiles from Instagram based on search terms and locations. Similarly, fetch the channels from Youtube and extract email id from their about section if mentioned in the description.<br />
+It has to be linked with an API also, users can fetch the data from UI.<br /><br /><b>Hourly Range</b>: $3.00-$10.00
+
+<br /><b>Posted On</b>: January 01, 2022 10:46 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Data Scraping,     Scrapy,     Scraper,     Data Mining,     Python,     Web Crawling    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Scrap-thousands-profiles-from-Instagram-and-Youtube_%7E01ed2ff548c0320133?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Looking for someone who can build a scraper to fetch thousands of profiles from Instagram based on search terms and locations. Similarly, fetch the channels from Youtube and extract email id from their about section if mentioned in the description.<br />
+It has to be linked with an API also, users can fetch the data from UI.<br /><br /><b>Hourly Range</b>: $3.00-$10.00
+
+<br /><b>Posted On</b>: January 01, 2022 10:46 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Data Scraping,     Scrapy,     Scraper,     Data Mining,     Python,     Web Crawling    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Scrap-thousands-profiles-from-Instagram-and-Youtube_%7E01ed2ff548c0320133?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 10:46:36 +0000</pubDate><guid>https://www.upwork.com/jobs/Scrap-thousands-profiles-from-Instagram-and-Youtube_%7E01ed2ff548c0320133?source=rss</guid></item><item><title><![CDATA[Python developer with expertise in Opencv, Numpy, Tensorflow, Pillow libraries - Upwork]]></title><link>https://www.upwork.com/jobs/Python-developer-with-expertise-Opencv-Numpy-Tensorflow-Pillow-libraries_%7E014814cb3567eaf2cb?source=rss</link><description><![CDATA[We are looking for a python developer who has strong skills over below python libraries:<br />
+Opencv<br />
+Numpy <br />
+Tensorflow<br />
+Pillow<br /><br />
+Tilesview is one of our products. Link to TilesView - https://tilesview.ai/<br /><br />
+It is an AI-based floor tiles visualizer platform. The platform is built to help tile manufacturers visualize tiles and help their clients select the right tiles for their room.<br /><br />
+Currently, Tilesview has functionality to visualize floors as well as walls. However, its floor visualizer is AI-based, but wall tiles visualizer isn&rsquo;t. Now, we are looking for someone who can help us build our wall tiles visualizer on AI.<br /><br />
+If you think you can do this task, send your proposal. Don&rsquo;t submit your proposal if you don&rsquo;t know about the python libraries listed above.<br /><br /><b>Hourly Range</b>: $15.00-$45.00
+
+<br /><b>Posted On</b>: January 01, 2022 10:14 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:NumPy,     Python,     OpenCV,     TensorFlow,     Machine Learning,     Artificial Intelligence    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Python-developer-with-expertise-Opencv-Numpy-Tensorflow-Pillow-libraries_%7E014814cb3567eaf2cb?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[We are looking for a python developer who has strong skills over below python libraries:<br />
+Opencv<br />
+Numpy <br />
+Tensorflow<br />
+Pillow<br /><br />
+Tilesview is one of our products. Link to TilesView - https://tilesview.ai/<br /><br />
+It is an AI-based floor tiles visualizer platform. The platform is built to help tile manufacturers visualize tiles and help their clients select the right tiles for their room.<br /><br />
+Currently, Tilesview has functionality to visualize floors as well as walls. However, its floor visualizer is AI-based, but wall tiles visualizer isn&rsquo;t. Now, we are looking for someone who can help us build our wall tiles visualizer on AI.<br /><br />
+If you think you can do this task, send your proposal. Don&rsquo;t submit your proposal if you don&rsquo;t know about the python libraries listed above.<br /><br /><b>Hourly Range</b>: $15.00-$45.00
+
+<br /><b>Posted On</b>: January 01, 2022 10:14 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:NumPy,     Python,     OpenCV,     TensorFlow,     Machine Learning,     Artificial Intelligence    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Python-developer-with-expertise-Opencv-Numpy-Tensorflow-Pillow-libraries_%7E014814cb3567eaf2cb?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 10:14:19 +0000</pubDate><guid>https://www.upwork.com/jobs/Python-developer-with-expertise-Opencv-Numpy-Tensorflow-Pillow-libraries_%7E014814cb3567eaf2cb?source=rss</guid></item><item><title><![CDATA[Sql work on data  - Upwork]]></title><link>https://www.upwork.com/jobs/Sql-work-data_%7E016afef3a5f99a9995?source=rss</link><description><![CDATA[finding these by using sql<br /><br />
+DAU (Daily Active Users)<br />
+NRU (Newly Registered Users)<br />
+Retention Rate (1 Day, 7 Day, 15 Day, 30 Day)<br />
+Stickiness<br /><br />
+and finding E-commerce CPM advertisment&#039;s reward&nbsp;&nbsp;&nbsp;ROAS (Return On Asset Spent)<br /><br /><b>Hourly Range</b>: $20.00-$30.00
+
+<br /><b>Posted On</b>: January 01, 2022 10:08 UTC<br /><b>Category</b>: Data Analytics<br /><b>Skills</b>:Growth Analytics,     Product Analytics,     Query,     Data Visualization,     Business Intelligence,     Hypothesis Testing,     BigQuery,     SQL,     PostgreSQL,     Data Analysis    
+<br /><b>Country</b>: South Korea
+<br /><a href="https://www.upwork.com/jobs/Sql-work-data_%7E016afef3a5f99a9995?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[finding these by using sql<br /><br />
+DAU (Daily Active Users)<br />
+NRU (Newly Registered Users)<br />
+Retention Rate (1 Day, 7 Day, 15 Day, 30 Day)<br />
+Stickiness<br /><br />
+and finding E-commerce CPM advertisment&#039;s reward&nbsp;&nbsp;&nbsp;ROAS (Return On Asset Spent)<br /><br /><b>Hourly Range</b>: $20.00-$30.00
+
+<br /><b>Posted On</b>: January 01, 2022 10:08 UTC<br /><b>Category</b>: Data Analytics<br /><b>Skills</b>:Growth Analytics,     Product Analytics,     Query,     Data Visualization,     Business Intelligence,     Hypothesis Testing,     BigQuery,     SQL,     PostgreSQL,     Data Analysis    
+<br /><b>Country</b>: South Korea
+<br /><a href="https://www.upwork.com/jobs/Sql-work-data_%7E016afef3a5f99a9995?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 10:08:05 +0000</pubDate><guid>https://www.upwork.com/jobs/Sql-work-data_%7E016afef3a5f99a9995?source=rss</guid></item><item><title><![CDATA[This article should be paraphrase - Upwork]]></title><link>https://www.upwork.com/jobs/This-article-should-paraphrase_%7E012014b064c7e2382a?source=rss</link><description><![CDATA[This article should be paraphrase (i.e the meaning of the original article is the same)<br />
+For example:<br />
+Changing the direct sentence to indirect one<br />
+Using synonyms and antonyms and idioms.<br /><br />
+Thankyou<br /><br /><br /><b>Posted On</b>: January 01, 2022 09:46 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:MATLAB,     Artificial Neural Networks,     Genetic Algorithm,     Machine Learning,     Artificial Intelligence,     Data Analysis,     Image Processing,     Digital Signal Processing,     Python,     Convolutional Neural Network,     Deep Learning,     Deep Neural Networks,     Computer Vision,     Neural Networks    
+<br /><b>Country</b>: Saudi Arabia
+<br /><a href="https://www.upwork.com/jobs/This-article-should-paraphrase_%7E012014b064c7e2382a?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[This article should be paraphrase (i.e the meaning of the original article is the same)<br />
+For example:<br />
+Changing the direct sentence to indirect one<br />
+Using synonyms and antonyms and idioms.<br /><br />
+Thankyou<br /><br /><br /><b>Posted On</b>: January 01, 2022 09:46 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:MATLAB,     Artificial Neural Networks,     Genetic Algorithm,     Machine Learning,     Artificial Intelligence,     Data Analysis,     Image Processing,     Digital Signal Processing,     Python,     Convolutional Neural Network,     Deep Learning,     Deep Neural Networks,     Computer Vision,     Neural Networks    
+<br /><b>Country</b>: Saudi Arabia
+<br /><a href="https://www.upwork.com/jobs/This-article-should-paraphrase_%7E012014b064c7e2382a?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 09:46:04 +0000</pubDate><guid>https://www.upwork.com/jobs/This-article-should-paraphrase_%7E012014b064c7e2382a?source=rss</guid></item><item><title><![CDATA[Data Capture from Screen shots - Upwork]]></title><link>https://www.upwork.com/jobs/Data-Capture-from-Screen-shots_%7E0123c1e439451e201a?source=rss</link><description><![CDATA[I am looking for someone who can help me extract data from screen shots and put them in an excel sheet.<br /><br /><b>Budget</b>: $100
+<br /><b>Posted On</b>: January 01, 2022 08:14 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Windows    
+<br /><b>Country</b>: New Zealand
+<br /><a href="https://www.upwork.com/jobs/Data-Capture-from-Screen-shots_%7E0123c1e439451e201a?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I am looking for someone who can help me extract data from screen shots and put them in an excel sheet.<br /><br /><b>Budget</b>: $100
+<br /><b>Posted On</b>: January 01, 2022 08:14 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Windows    
+<br /><b>Country</b>: New Zealand
+<br /><a href="https://www.upwork.com/jobs/Data-Capture-from-Screen-shots_%7E0123c1e439451e201a?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 08:14:21 +0000</pubDate><guid>https://www.upwork.com/jobs/Data-Capture-from-Screen-shots_%7E0123c1e439451e201a?source=rss</guid></item><item><title><![CDATA[Equity Analyst with Excel and Python skillset - Upwork]]></title><link>https://www.upwork.com/jobs/Equity-Analyst-with-Excel-and-Python-skillset_%7E010496e33062f90b1b?source=rss</link><description><![CDATA[I am a financial analyst working with equity markets data and often need help in creating models and prototypes in Excel ( with use of Python as the analytical language and excel largely as frontend). Looking for someone who can understand my use case and take initiative on solving that problem and provide me with solutions and work on iterations to improve the solutions. <br /><br /><br /><br /><b>Hourly Range</b>: $10.00-$20.00
+
+<br /><b>Posted On</b>: January 01, 2022 08:14 UTC<br /><b>Category</b>: Data Analytics<br /><b>Skills</b>:Microsoft Excel,     Python,     Data Analysis,     Financial Analysis    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Equity-Analyst-with-Excel-and-Python-skillset_%7E010496e33062f90b1b?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I am a financial analyst working with equity markets data and often need help in creating models and prototypes in Excel ( with use of Python as the analytical language and excel largely as frontend). Looking for someone who can understand my use case and take initiative on solving that problem and provide me with solutions and work on iterations to improve the solutions. <br /><br /><br /><br /><b>Hourly Range</b>: $10.00-$20.00
+
+<br /><b>Posted On</b>: January 01, 2022 08:14 UTC<br /><b>Category</b>: Data Analytics<br /><b>Skills</b>:Microsoft Excel,     Python,     Data Analysis,     Financial Analysis    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Equity-Analyst-with-Excel-and-Python-skillset_%7E010496e33062f90b1b?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 08:14:19 +0000</pubDate><guid>https://www.upwork.com/jobs/Equity-Analyst-with-Excel-and-Python-skillset_%7E010496e33062f90b1b?source=rss</guid></item><item><title><![CDATA[Data Science questions - Upwork]]></title><link>https://www.upwork.com/jobs/Data-Science-questions_%7E018ca43dfaaf300287?source=rss</link><description><![CDATA[I am looking someone to answer my data science questions for my small project. <br /><br /><b>Budget</b>: $30
+<br /><b>Posted On</b>: January 01, 2022 07:51 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:Data Science,     Statistics,     Python,     Machine Learning    
+<br /><b>Country</b>: Malaysia
+<br /><a href="https://www.upwork.com/jobs/Data-Science-questions_%7E018ca43dfaaf300287?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I am looking someone to answer my data science questions for my small project. <br /><br /><b>Budget</b>: $30
+<br /><b>Posted On</b>: January 01, 2022 07:51 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:Data Science,     Statistics,     Python,     Machine Learning    
+<br /><b>Country</b>: Malaysia
+<br /><a href="https://www.upwork.com/jobs/Data-Science-questions_%7E018ca43dfaaf300287?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 07:51:02 +0000</pubDate><guid>https://www.upwork.com/jobs/Data-Science-questions_%7E018ca43dfaaf300287?source=rss</guid></item><item><title><![CDATA[Backend Python Developer - Upwork]]></title><link>https://www.upwork.com/jobs/Backend-Python-Developer_%7E01310fa84aa8c09212?source=rss</link><description><![CDATA[We are looking for a Python developer with experience in back-end development. The ideal candidate will have experience with Pandas, NumPy, Statsmodels, Kepler.gl as well as complex SQL queries on MySQL database.&nbsp;&nbsp;They will be responsible for developing and managing back-end scripts and datasets. Additionally, the Python developer will be responsible for creating and managing APIs and working with front-end developers to ensure compatibility.<br /><br />
+The ideal candidate will be able to work independently and be able to take ownership of projects. They will have excellent communication skills and be able to work with a team of developers. Prior data visualisation experience using python is a huge bonus.<br /><br />
+Responsibilities<br /><br />
+- Develop and manage back-end scripts in python<br />
+- AWS experience is a bonus<br />
+- Develop and manage APIs and JSON<br />
+- Source data from multiple sources i.e. APIs, web scraping, database, spreadsheets etc<br />
+- Ensure compatibility with front-end developers<br />
+- Work independently and take ownership of smaller projects &amp;amp; tasks<br />
+- Excellent communication skills and &amp;quot;can do attitude&amp;quot;<br /><br />
+You must be Proficient in English or Russian languages. Python developer certification or degree in computer science preferred.<br /><br /><b>Hourly Range</b>: $15.00-$20.00
+
+<br /><b>Posted On</b>: January 01, 2022 04:46 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:MySQL,     Python,     API,     Database,     Software Architecture &amp; Design,     Python Script,     RESTful API    
+<br /><b>Country</b>: Australia
+<br /><a href="https://www.upwork.com/jobs/Backend-Python-Developer_%7E01310fa84aa8c09212?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[We are looking for a Python developer with experience in back-end development. The ideal candidate will have experience with Pandas, NumPy, Statsmodels, Kepler.gl as well as complex SQL queries on MySQL database.&nbsp;&nbsp;They will be responsible for developing and managing back-end scripts and datasets. Additionally, the Python developer will be responsible for creating and managing APIs and working with front-end developers to ensure compatibility.<br /><br />
+The ideal candidate will be able to work independently and be able to take ownership of projects. They will have excellent communication skills and be able to work with a team of developers. Prior data visualisation experience using python is a huge bonus.<br /><br />
+Responsibilities<br /><br />
+- Develop and manage back-end scripts in python<br />
+- AWS experience is a bonus<br />
+- Develop and manage APIs and JSON<br />
+- Source data from multiple sources i.e. APIs, web scraping, database, spreadsheets etc<br />
+- Ensure compatibility with front-end developers<br />
+- Work independently and take ownership of smaller projects &amp;amp; tasks<br />
+- Excellent communication skills and &amp;quot;can do attitude&amp;quot;<br /><br />
+You must be Proficient in English or Russian languages. Python developer certification or degree in computer science preferred.<br /><br /><b>Hourly Range</b>: $15.00-$20.00
+
+<br /><b>Posted On</b>: January 01, 2022 04:46 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:MySQL,     Python,     API,     Database,     Software Architecture &amp; Design,     Python Script,     RESTful API    
+<br /><b>Country</b>: Australia
+<br /><a href="https://www.upwork.com/jobs/Backend-Python-Developer_%7E01310fa84aa8c09212?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 04:46:53 +0000</pubDate><guid>https://www.upwork.com/jobs/Backend-Python-Developer_%7E01310fa84aa8c09212?source=rss</guid></item><item><title><![CDATA[Pull executive compensation across 6704 publicly traded companies from SEC Edgar website - Upwork]]></title><link>https://www.upwork.com/jobs/Pull-executive-compensation-across-6704-publicly-traded-companies-from-SEC-Edgar-website_%7E012940bbfe597a3bf1?source=rss</link><description><![CDATA[I want to put together a table of all the executive compensation tables from the 6704 publicly traded companies that report information to the SEC through the Edgar database. Every company is required to fill out &amp;quot;Summary Compensation Table&amp;quot; in the same format within their proxy filing for the top 5 most paid officers over the last 3 years.<br /><br />
+If you want to see an example of this summary table, do this:<br />
+1) Go to SEC Edgar Company Filings website (https://www.sec.gov/edgar/searchedgar/companysearch.html)<br />
+2) Type in and search any CIK.<br />
+3) Click to open: [+] Proxy (annual meeting) and information statements<br />
+4) Click on the first link under: [+] Proxy (annual meeting) and information statements<br />
+5) CTRL + F: &amp;quot;Summary Compensation Table&amp;quot;<br />
+6) The first column of the table should be: &amp;quot;Name and Principal Position&amp;quot;. The second column is &amp;quot;Year&amp;quot;. The third is &amp;quot;Salary&amp;quot;. There should be 9 total columns.<br /><br />
+I want my output to have these 9 columns plus 1 column for CIK, 1 column for the hyperlink from which the information was pulled from, and 1 column for Revenue. Each search should have upto 15 rows: 5 executive officers with 3 years each. Sometimes, executive officers have not been with the company for 3 years so they will have less.<br /><br />
+I have attached an Excel file. The first tab is what the table in the SEC Edgar website should look like. The second tab is what I hope for the output to look like. The first tab has the 6704 CIKs we want to search. I have discovered recently that not every CIK has a proxy filing. This must be because my source included publicly traded companies without operations and filings. I&#039;m sure they would return errors or blanks in the search so it is okay to leave for now.<br /><br />
+Here are some other sources to be aware of:<br />
+1) The SEC website has a limit where you can only do 10 requests per second. There are also some other legal restrictions outlined in these links. (a) https://www.sec.gov/os/accessing-edgar-data (b) https://www.sec.gov/privacy.htm#security<br />
+2) This website lays out the exact code to scrape the URL of each company. However, the challenge is that his code is a manual input of each company, but I want to run multiple companies at once. This website also shows how to scrape Balance Sheet and financial information, but I want Executive Compensation information. (a) https://codingandfun.com/scraping-sec-edgar-python/<br />
+3) The SEC website provides some other information as well. (a) https://www.sec.gov/dera/data/financial-statement-data-sets.html (b) https://www.sec.gov/dera/data/financial-statement-and-notes-data-set.html<br /><br />
+Happy to answer any questions for this project! I hope you can help me!<br /><br /><br /><b>Budget</b>: $750
+<br /><b>Posted On</b>: January 01, 2022 04:17 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Python,     Data Scraping,     Data Mining,     SEC Reporting,     Data Extraction    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Pull-executive-compensation-across-6704-publicly-traded-companies-from-SEC-Edgar-website_%7E012940bbfe597a3bf1?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I want to put together a table of all the executive compensation tables from the 6704 publicly traded companies that report information to the SEC through the Edgar database. Every company is required to fill out &amp;quot;Summary Compensation Table&amp;quot; in the same format within their proxy filing for the top 5 most paid officers over the last 3 years.<br /><br />
+If you want to see an example of this summary table, do this:<br />
+1) Go to SEC Edgar Company Filings website (https://www.sec.gov/edgar/searchedgar/companysearch.html)<br />
+2) Type in and search any CIK.<br />
+3) Click to open: [+] Proxy (annual meeting) and information statements<br />
+4) Click on the first link under: [+] Proxy (annual meeting) and information statements<br />
+5) CTRL + F: &amp;quot;Summary Compensation Table&amp;quot;<br />
+6) The first column of the table should be: &amp;quot;Name and Principal Position&amp;quot;. The second column is &amp;quot;Year&amp;quot;. The third is &amp;quot;Salary&amp;quot;. There should be 9 total columns.<br /><br />
+I want my output to have these 9 columns plus 1 column for CIK, 1 column for the hyperlink from which the information was pulled from, and 1 column for Revenue. Each search should have upto 15 rows: 5 executive officers with 3 years each. Sometimes, executive officers have not been with the company for 3 years so they will have less.<br /><br />
+I have attached an Excel file. The first tab is what the table in the SEC Edgar website should look like. The second tab is what I hope for the output to look like. The first tab has the 6704 CIKs we want to search. I have discovered recently that not every CIK has a proxy filing. This must be because my source included publicly traded companies without operations and filings. I&#039;m sure they would return errors or blanks in the search so it is okay to leave for now.<br /><br />
+Here are some other sources to be aware of:<br />
+1) The SEC website has a limit where you can only do 10 requests per second. There are also some other legal restrictions outlined in these links. (a) https://www.sec.gov/os/accessing-edgar-data (b) https://www.sec.gov/privacy.htm#security<br />
+2) This website lays out the exact code to scrape the URL of each company. However, the challenge is that his code is a manual input of each company, but I want to run multiple companies at once. This website also shows how to scrape Balance Sheet and financial information, but I want Executive Compensation information. (a) https://codingandfun.com/scraping-sec-edgar-python/<br />
+3) The SEC website provides some other information as well. (a) https://www.sec.gov/dera/data/financial-statement-data-sets.html (b) https://www.sec.gov/dera/data/financial-statement-and-notes-data-set.html<br /><br />
+Happy to answer any questions for this project! I hope you can help me!<br /><br /><br /><b>Budget</b>: $750
+<br /><b>Posted On</b>: January 01, 2022 04:17 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Python,     Data Scraping,     Data Mining,     SEC Reporting,     Data Extraction    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Pull-executive-compensation-across-6704-publicly-traded-companies-from-SEC-Edgar-website_%7E012940bbfe597a3bf1?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Sat, 01 Jan 2022 04:17:16 +0000</pubDate><guid>https://www.upwork.com/jobs/Pull-executive-compensation-across-6704-publicly-traded-companies-from-SEC-Edgar-website_%7E012940bbfe597a3bf1?source=rss</guid></item><item><title><![CDATA[Raytracing | python project - Upwork]]></title><link>https://www.upwork.com/jobs/Raytracing-python-project_%7E011fa339c8024cdeef?source=rss</link><description><![CDATA[I need a python developer to get this project done.<br />
+All the required tasks are specified in detail with some guidelines in the attached file.<br />
+ps: a minimum of french language is required as the file is written in English.<br /><br />
+Deliverable will be an .ipynb file withe comments on every step of the project.<br />
+I want to the job to be done within 2-3 days.<br />
+Please make sure to take a look on the attached file before submitting.<br /><br /><b>Budget</b>: $50
+<br /><b>Posted On</b>: December 31, 2021 23:53 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:Python,     Python Script    
+<br /><b>Country</b>: Tunisia
+<br /><a href="https://www.upwork.com/jobs/Raytracing-python-project_%7E011fa339c8024cdeef?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I need a python developer to get this project done.<br />
+All the required tasks are specified in detail with some guidelines in the attached file.<br />
+ps: a minimum of french language is required as the file is written in English.<br /><br />
+Deliverable will be an .ipynb file withe comments on every step of the project.<br />
+I want to the job to be done within 2-3 days.<br />
+Please make sure to take a look on the attached file before submitting.<br /><br /><b>Budget</b>: $50
+<br /><b>Posted On</b>: December 31, 2021 23:53 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:Python,     Python Script    
+<br /><b>Country</b>: Tunisia
+<br /><a href="https://www.upwork.com/jobs/Raytracing-python-project_%7E011fa339c8024cdeef?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 23:53:07 +0000</pubDate><guid>https://www.upwork.com/jobs/Raytracing-python-project_%7E011fa339c8024cdeef?source=rss</guid></item><item><title><![CDATA[Quick scraper in Python - Upwork]]></title><link>https://www.upwork.com/jobs/Quick-scraper-Python_%7E01572b94dc67b67c2f?source=rss</link><description><![CDATA[Hi, I need a quick and dirty scraper to pull data from an infinite scroll page. <br /><br />
+See the attached description. Let me know if there are any questions.<br /><br />
+Happy New Year!!<br /><br /><b>Budget</b>: $100
+<br /><b>Posted On</b>: December 31, 2021 23:44 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Python,     Data Scraping    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Quick-scraper-Python_%7E01572b94dc67b67c2f?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Hi, I need a quick and dirty scraper to pull data from an infinite scroll page. <br /><br />
+See the attached description. Let me know if there are any questions.<br /><br />
+Happy New Year!!<br /><br /><b>Budget</b>: $100
+<br /><b>Posted On</b>: December 31, 2021 23:44 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Python,     Data Scraping    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Quick-scraper-Python_%7E01572b94dc67b67c2f?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 23:44:26 +0000</pubDate><guid>https://www.upwork.com/jobs/Quick-scraper-Python_%7E01572b94dc67b67c2f?source=rss</guid></item><item><title><![CDATA[Quick script to extract no. results from google search results - Upwork]]></title><link>https://www.upwork.com/jobs/Quick-script-extract-results-from-google-search-results_%7E017c7335644913a394?source=rss</link><description><![CDATA[hi, <br /><br />
+Im looking for a quick script to extract the number of search results for a list of keywords in excell and put the value (number of search results) in a cell next to the keyword.<br /><br />
+Kind Regards<br /><br /><b>Budget</b>: $10
+<br /><b>Posted On</b>: December 31, 2021 23:42 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Selenium,     Data Scraping,     Python,     Microsoft Excel    
+<br /><b>Country</b>: United Kingdom
+<br /><a href="https://www.upwork.com/jobs/Quick-script-extract-results-from-google-search-results_%7E017c7335644913a394?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[hi, <br /><br />
+Im looking for a quick script to extract the number of search results for a list of keywords in excell and put the value (number of search results) in a cell next to the keyword.<br /><br />
+Kind Regards<br /><br /><b>Budget</b>: $10
+<br /><b>Posted On</b>: December 31, 2021 23:42 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Selenium,     Data Scraping,     Python,     Microsoft Excel    
+<br /><b>Country</b>: United Kingdom
+<br /><a href="https://www.upwork.com/jobs/Quick-script-extract-results-from-google-search-results_%7E017c7335644913a394?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 23:42:21 +0000</pubDate><guid>https://www.upwork.com/jobs/Quick-script-extract-results-from-google-search-results_%7E017c7335644913a394?source=rss</guid></item><item><title><![CDATA[TG Bot Needed - Upwork]]></title><link>https://www.upwork.com/jobs/Bot-Needed_%7E01cb5c267c242b32fe?source=rss</link><description><![CDATA[We require someone to program some TG bots for us that will spread content around to various other TG groups.<br /><br />
+Chatbot like capabilities are required as is previous experience completing a project of this nature.<br /><br /><b>Hourly Range</b>: $17.00-$37.00
+
+<br /><b>Posted On</b>: December 31, 2021 23:17 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Python,     Bot Development,     Automation,     JavaScript,     Web Programming    
+<br /><b>Country</b>: Canada
+<br /><a href="https://www.upwork.com/jobs/Bot-Needed_%7E01cb5c267c242b32fe?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[We require someone to program some TG bots for us that will spread content around to various other TG groups.<br /><br />
+Chatbot like capabilities are required as is previous experience completing a project of this nature.<br /><br /><b>Hourly Range</b>: $17.00-$37.00
+
+<br /><b>Posted On</b>: December 31, 2021 23:17 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:Python,     Bot Development,     Automation,     JavaScript,     Web Programming    
+<br /><b>Country</b>: Canada
+<br /><a href="https://www.upwork.com/jobs/Bot-Needed_%7E01cb5c267c242b32fe?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 23:17:39 +0000</pubDate><guid>https://www.upwork.com/jobs/Bot-Needed_%7E01cb5c267c242b32fe?source=rss</guid></item><item><title><![CDATA[Small Zapier Coding Project API - Upwork]]></title><link>https://www.upwork.com/jobs/Small-Zapier-Coding-Project-API_%7E0129496e8eca9c9713?source=rss</link><description><![CDATA[1. I need to connect to OpenAI API(https://beta.openai.com/docs/introduction/overview) and grab the results, split the data based on specific characters and then place them into an airtable row<br /><br />
+2. I need to request the OpenAI API for each element in a loop, which are based on elements in an airtable row.&nbsp;&nbsp;This involves using a variable in said loop.&nbsp;&nbsp;The results are then sent to a separate airtable table.<br /><br /><br /><b>Posted On</b>: December 31, 2021 22:43 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:API Integration,     Scripting,     Python,     JavaScript,     PHP,     Zapier    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Small-Zapier-Coding-Project-API_%7E0129496e8eca9c9713?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[1. I need to connect to OpenAI API(https://beta.openai.com/docs/introduction/overview) and grab the results, split the data based on specific characters and then place them into an airtable row<br /><br />
+2. I need to request the OpenAI API for each element in a loop, which are based on elements in an airtable row.&nbsp;&nbsp;This involves using a variable in said loop.&nbsp;&nbsp;The results are then sent to a separate airtable table.<br /><br /><br /><b>Posted On</b>: December 31, 2021 22:43 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:API Integration,     Scripting,     Python,     JavaScript,     PHP,     Zapier    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Small-Zapier-Coding-Project-API_%7E0129496e8eca9c9713?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 22:43:22 +0000</pubDate><guid>https://www.upwork.com/jobs/Small-Zapier-Coding-Project-API_%7E0129496e8eca9c9713?source=rss</guid></item><item><title><![CDATA[Develop structured data crawler and implement cloud infrastructure for data analysis - Upwork]]></title><link>https://www.upwork.com/jobs/Develop-structured-data-crawler-and-implement-cloud-infrastructure-for-data-analysis_%7E01df8865c143deffe6?source=rss</link><description><![CDATA[Looking for an experienced developer for a 1-3 month project. This contract is for the development of a crawler to collect structured data from the web, as well as implementing the necessary cloud infrastructure to handle the resulting data and make it available for analysis. This is the first component of an advertising data analysis product with potential for further projects in the future for the right candidate.<br /><br />
+The crawler will pull publicly available metadata in a standardized machine-readable (structured) format from a known list of URLs at a scheduled interval. This metadata is published with the intention of being consumed by a bot, which is why this is a data extraction project. To be clear, this will not require scraping unstructured data from web pages. However, exception handling will be one of the main challenges with this project; even though the data will be structured in a machine-readable format, there will be errors, misspellings, improper syntax, strange characters, and so on, that may cause the crawler to experience parsing issues.<br /><br />
+We will be building on Google Cloud platform for this project. We are flexible on the specific programming language, as long as it is a common one supported by Google Cloud components (e.g. Java, Python, etc.) Must have deep expertise with SQL, big data, and the various components of the Google Cloud Platform ecosystem (e.g. BigQuery, Cloud Function, Cloud Run, etc.) Developer must also be able to provide informed recommendations and assistance with the selection of cloud platform and specific cloud platform technologies (ex: &ldquo;We should use BigQuery for the storage for this, we will write this as a google cloud function, etc.&rdquo;).<br /><br />
+Some further high level requirements will be shared with selected candidates. Detailed specifications for the product will be made available for applicants to review upon request. (After NDA is in place.)<br /><br />
+Please note: We are looking to build a crawler that is purely a backend utility. There is no front-end design or user-facing development.<br /><br />
+You will work with a product manager for this project. They will be located in North America in the Eastern Time zone (New York / Toronto). <br /><br />
+Required Experience:<br />
+* Experience creating custom high-scale web crawlers / data scrapers<br />
+* Experience with major programming languages supported by GCP (e.g. Java, Python, etc.) as well as SQL<br />
+* Experience with developing applications using cloud-native technologies (including big data offerings from GCP)<br />
+* Experience in making infrastructure and architecture recommendations based on the long-term product vision<br />
+* Experience with Git for source control<br />
+* Advertising technology knowledge is a plus, but not required for this project<br /><br />
+If you are interested in this project, please reply with your prior experience.<br /><br />
+Future projects may involve more crawlers like this one, but also conventional web scraping (using Selenium, WebDriver, Puppeteer, etc.) to gather business intelligence about the technical characteristics of websites.<br /><br /><b>Hourly Range</b>: $15.00-$55.00
+
+<br /><b>Posted On</b>: December 31, 2021 22:21 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:SQL,     Data Scraping,     Data Extraction,     Web Crawling,     Data Mining,     Google Cloud Platform,     BigQuery,     Big Data,     ETL Pipeline    
+<br /><b>Country</b>: Canada
+<br /><a href="https://www.upwork.com/jobs/Develop-structured-data-crawler-and-implement-cloud-infrastructure-for-data-analysis_%7E01df8865c143deffe6?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[Looking for an experienced developer for a 1-3 month project. This contract is for the development of a crawler to collect structured data from the web, as well as implementing the necessary cloud infrastructure to handle the resulting data and make it available for analysis. This is the first component of an advertising data analysis product with potential for further projects in the future for the right candidate.<br /><br />
+The crawler will pull publicly available metadata in a standardized machine-readable (structured) format from a known list of URLs at a scheduled interval. This metadata is published with the intention of being consumed by a bot, which is why this is a data extraction project. To be clear, this will not require scraping unstructured data from web pages. However, exception handling will be one of the main challenges with this project; even though the data will be structured in a machine-readable format, there will be errors, misspellings, improper syntax, strange characters, and so on, that may cause the crawler to experience parsing issues.<br /><br />
+We will be building on Google Cloud platform for this project. We are flexible on the specific programming language, as long as it is a common one supported by Google Cloud components (e.g. Java, Python, etc.) Must have deep expertise with SQL, big data, and the various components of the Google Cloud Platform ecosystem (e.g. BigQuery, Cloud Function, Cloud Run, etc.) Developer must also be able to provide informed recommendations and assistance with the selection of cloud platform and specific cloud platform technologies (ex: &ldquo;We should use BigQuery for the storage for this, we will write this as a google cloud function, etc.&rdquo;).<br /><br />
+Some further high level requirements will be shared with selected candidates. Detailed specifications for the product will be made available for applicants to review upon request. (After NDA is in place.)<br /><br />
+Please note: We are looking to build a crawler that is purely a backend utility. There is no front-end design or user-facing development.<br /><br />
+You will work with a product manager for this project. They will be located in North America in the Eastern Time zone (New York / Toronto). <br /><br />
+Required Experience:<br />
+* Experience creating custom high-scale web crawlers / data scrapers<br />
+* Experience with major programming languages supported by GCP (e.g. Java, Python, etc.) as well as SQL<br />
+* Experience with developing applications using cloud-native technologies (including big data offerings from GCP)<br />
+* Experience in making infrastructure and architecture recommendations based on the long-term product vision<br />
+* Experience with Git for source control<br />
+* Advertising technology knowledge is a plus, but not required for this project<br /><br />
+If you are interested in this project, please reply with your prior experience.<br /><br />
+Future projects may involve more crawlers like this one, but also conventional web scraping (using Selenium, WebDriver, Puppeteer, etc.) to gather business intelligence about the technical characteristics of websites.<br /><br /><b>Hourly Range</b>: $15.00-$55.00
+
+<br /><b>Posted On</b>: December 31, 2021 22:21 UTC<br /><b>Category</b>: Back-End Development<br /><b>Skills</b>:SQL,     Data Scraping,     Data Extraction,     Web Crawling,     Data Mining,     Google Cloud Platform,     BigQuery,     Big Data,     ETL Pipeline    
+<br /><b>Country</b>: Canada
+<br /><a href="https://www.upwork.com/jobs/Develop-structured-data-crawler-and-implement-cloud-infrastructure-for-data-analysis_%7E01df8865c143deffe6?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 22:21:20 +0000</pubDate><guid>https://www.upwork.com/jobs/Develop-structured-data-crawler-and-implement-cloud-infrastructure-for-data-analysis_%7E01df8865c143deffe6?source=rss</guid></item><item><title><![CDATA[Website Data Scraping - Upwork]]></title><link>https://www.upwork.com/jobs/Website-Data-Scraping_%7E01fd2c85e989fb358a?source=rss</link><description><![CDATA[We are looking for a freelancer that would know how to scrap a website for data. <br /><br />
+We are looking to see what was selling. We would like it to be categories into months and year, and also to specify what items sold and who the sellers were. <br /><br />
+Please provide 2-3 samples and what were scrapped to see the amount of detail you were able to achieve. If you do NOT have a sample, you must be open for a test. <br /><br /><b>Hourly Range</b>: $20.00-$40.00
+
+<br /><b>Posted On</b>: December 31, 2021 22:02 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     Data Extraction,     Web Crawling    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Website-Data-Scraping_%7E01fd2c85e989fb358a?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[We are looking for a freelancer that would know how to scrap a website for data. <br /><br />
+We are looking to see what was selling. We would like it to be categories into months and year, and also to specify what items sold and who the sellers were. <br /><br />
+Please provide 2-3 samples and what were scrapped to see the amount of detail you were able to achieve. If you do NOT have a sample, you must be open for a test. <br /><br /><b>Hourly Range</b>: $20.00-$40.00
+
+<br /><b>Posted On</b>: December 31, 2021 22:02 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Scraping,     Data Extraction,     Web Crawling    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Website-Data-Scraping_%7E01fd2c85e989fb358a?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 22:02:28 +0000</pubDate><guid>https://www.upwork.com/jobs/Website-Data-Scraping_%7E01fd2c85e989fb358a?source=rss</guid></item><item><title><![CDATA[Node JS Puppeteer integration to automate activities on Linkedin - Upwork]]></title><link>https://www.upwork.com/jobs/Node-Puppeteer-integration-automate-activities-Linkedin_%7E012c10218448dfde58?source=rss</link><description><![CDATA[I&#039;m looking for a puppeteer expert to automate the Linkedin to send the messages to event attendees, messages to group members and create event on Linkedin, invite connections to the event etc.<br /><br />
+Can work on hourly rate or fixed, fine with both.<br /><br /><br /><b>Hourly Range</b>: $3.00-$10.00
+
+<br /><b>Posted On</b>: December 31, 2021 20:37 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:API Integration,     Data Mining,     Automation,     JavaScript,     Scripting,     Puppet,     Node.js    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Node-Puppeteer-integration-automate-activities-Linkedin_%7E012c10218448dfde58?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I&#039;m looking for a puppeteer expert to automate the Linkedin to send the messages to event attendees, messages to group members and create event on Linkedin, invite connections to the event etc.<br /><br />
+Can work on hourly rate or fixed, fine with both.<br /><br /><br /><b>Hourly Range</b>: $3.00-$10.00
+
+<br /><b>Posted On</b>: December 31, 2021 20:37 UTC<br /><b>Category</b>: Scripting &amp; Automation<br /><b>Skills</b>:API Integration,     Data Mining,     Automation,     JavaScript,     Scripting,     Puppet,     Node.js    
+<br /><b>Country</b>: India
+<br /><a href="https://www.upwork.com/jobs/Node-Puppeteer-integration-automate-activities-Linkedin_%7E012c10218448dfde58?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 20:37:46 +0000</pubDate><guid>https://www.upwork.com/jobs/Node-Puppeteer-integration-automate-activities-Linkedin_%7E012c10218448dfde58?source=rss</guid></item><item><title><![CDATA[Web scraping into Excel - Upwork]]></title><link>https://www.upwork.com/jobs/Web-scraping-into-Excel_%7E012dab2fb894b5db16?source=rss</link><description><![CDATA[I am looking to scrape data from the following website:<br /><br />
+https://greyhoundbet.racingpost.com/#results-list/r_date=2021-01-01<br /><br />
+Specifically, I would like the previous form details of each greyhound in all of the races from January to September 2021 at one particular track (Monmore) to be extracted from the website, and pasted (or somehow moved) into an Excel file. <br /><br />
+The data from the website:<br />
+To access each day&#039;s data, you need to select the date in the top left corner. The link is for Jan 1, but if the Jan 1 link is clicked, a calendar appears, allowing the user to select whichever date they wish, each with its own unique (and consistent) URL. <br /><br />
+To access each race data for that day, the user needs to click on the time link for each particular race. There are 5/6 per week for Monmore, which is the track I am interested in for this project. SO for January 1st, there are 12 races, starting at 1:24 and ending at 4:48, each with their own link. <br /><br />
+Clicking on each race time link brings up the results. Clicking again on each of the 6 greyhounds brings up that greyhound&#039;s previous performances. It is this data which I am interested in. So, for example, take the 1:24 Race at Monmore on 1/1/2021, the winner was Uknowyerwan. Click on this name and a lengthy list of this greyhound&#039;s oerformance appears, starting with the most recent (in this case, 17 Dec 2021 is top of the list). It is this data which I want, and I would like it for every greyhound which has run in a race at Monmore between 1/1/2021 and 1st October 2021. If doing this manually, it means clicking on each greyhound in each race for all of the days where there were races at Monmore, and extracting the greyhound level data. <br /><br /><br />
+The complication with this is that a crucial piece of information, the greyhounds name, is missing which this data is manually copy &amp;amp; pasted (it&#039;s not contained within the block of data). To fix this whilst copying manually, I built a (poorly coded!) Excel file, whereby the data for each dog can be copied and then the Macro button hit which first copies the name of the dog down the final column, then pastes onto the bottom of the dataset on the next tab. The Excel file is attached, the macro is &amp;quot;runlevel&amp;quot;.<br /><br />
+I need somebody to write a script to continue what has been done manually on the &amp;quot;Runlevel&amp;quot; tab. That is, to extract the information from the website for each greyhound from 1st January until 1st October, paste it continuously one below the other (ideally in columns a:p), and also to include the dog name in an adjacent column. <br /><br />
+Job price is an estimate. <br /><br />
+I will evaluate all offers after a 24 hour period, so please take time to ensure that you have access to the website, understand and can deliver the project before bidding, there is no need to rush your proposal in (I have been a contractor here and I know how that works!)<br /><br /><br /><br /><b>Budget</b>: $51
+<br /><b>Posted On</b>: December 31, 2021 20:34 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Mining,     Data Scraping,     Microsoft Excel,     Python,     Data Extraction    
+<br /><b>Country</b>: United Kingdom
+<br /><a href="https://www.upwork.com/jobs/Web-scraping-into-Excel_%7E012dab2fb894b5db16?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[I am looking to scrape data from the following website:<br /><br />
+https://greyhoundbet.racingpost.com/#results-list/r_date=2021-01-01<br /><br />
+Specifically, I would like the previous form details of each greyhound in all of the races from January to September 2021 at one particular track (Monmore) to be extracted from the website, and pasted (or somehow moved) into an Excel file. <br /><br />
+The data from the website:<br />
+To access each day&#039;s data, you need to select the date in the top left corner. The link is for Jan 1, but if the Jan 1 link is clicked, a calendar appears, allowing the user to select whichever date they wish, each with its own unique (and consistent) URL. <br /><br />
+To access each race data for that day, the user needs to click on the time link for each particular race. There are 5/6 per week for Monmore, which is the track I am interested in for this project. SO for January 1st, there are 12 races, starting at 1:24 and ending at 4:48, each with their own link. <br /><br />
+Clicking on each race time link brings up the results. Clicking again on each of the 6 greyhounds brings up that greyhound&#039;s previous performances. It is this data which I am interested in. So, for example, take the 1:24 Race at Monmore on 1/1/2021, the winner was Uknowyerwan. Click on this name and a lengthy list of this greyhound&#039;s oerformance appears, starting with the most recent (in this case, 17 Dec 2021 is top of the list). It is this data which I want, and I would like it for every greyhound which has run in a race at Monmore between 1/1/2021 and 1st October 2021. If doing this manually, it means clicking on each greyhound in each race for all of the days where there were races at Monmore, and extracting the greyhound level data. <br /><br /><br />
+The complication with this is that a crucial piece of information, the greyhounds name, is missing which this data is manually copy &amp;amp; pasted (it&#039;s not contained within the block of data). To fix this whilst copying manually, I built a (poorly coded!) Excel file, whereby the data for each dog can be copied and then the Macro button hit which first copies the name of the dog down the final column, then pastes onto the bottom of the dataset on the next tab. The Excel file is attached, the macro is &amp;quot;runlevel&amp;quot;.<br /><br />
+I need somebody to write a script to continue what has been done manually on the &amp;quot;Runlevel&amp;quot; tab. That is, to extract the information from the website for each greyhound from 1st January until 1st October, paste it continuously one below the other (ideally in columns a:p), and also to include the dog name in an adjacent column. <br /><br />
+Job price is an estimate. <br /><br />
+I will evaluate all offers after a 24 hour period, so please take time to ensure that you have access to the website, understand and can deliver the project before bidding, there is no need to rush your proposal in (I have been a contractor here and I know how that works!)<br /><br /><br /><br /><b>Budget</b>: $51
+<br /><b>Posted On</b>: December 31, 2021 20:34 UTC<br /><b>Category</b>: Data Extraction<br /><b>Skills</b>:Data Mining,     Data Scraping,     Microsoft Excel,     Python,     Data Extraction    
+<br /><b>Country</b>: United Kingdom
+<br /><a href="https://www.upwork.com/jobs/Web-scraping-into-Excel_%7E012dab2fb894b5db16?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 20:34:22 +0000</pubDate><guid>https://www.upwork.com/jobs/Web-scraping-into-Excel_%7E012dab2fb894b5db16?source=rss</guid></item><item><title><![CDATA[Electric tractor autonomous driving - Upwork]]></title><link>https://www.upwork.com/jobs/Electric-tractor-autonomous-driving_%7E0167609c969729a8eb?source=rss</link><description><![CDATA[<br />
+we can use a repo as a base: <br /><br />
+https://github.com/robotika/osgar<br /><br /><br />
+I have a tractor I bought and im making it electric. id like to make it autonomous and have it drive up and down a hill. and follow a path. thats all<br /><br /><br /><br /><b>Budget</b>: $2,000
+<br /><b>Posted On</b>: December 31, 2021 20:25 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:Python    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Electric-tractor-autonomous-driving_%7E0167609c969729a8eb?source=rss">click to apply</a>
+]]></description><content:encoded><![CDATA[<br />
+we can use a repo as a base: <br /><br />
+https://github.com/robotika/osgar<br /><br /><br />
+I have a tractor I bought and im making it electric. id like to make it autonomous and have it drive up and down a hill. and follow a path. thats all<br /><br /><br /><br /><b>Budget</b>: $2,000
+<br /><b>Posted On</b>: December 31, 2021 20:25 UTC<br /><b>Category</b>: Machine Learning<br /><b>Skills</b>:Python    
+<br /><b>Country</b>: United States
+<br /><a href="https://www.upwork.com/jobs/Electric-tractor-autonomous-driving_%7E0167609c969729a8eb?source=rss">click to apply</a>
+]]></content:encoded><pubDate>Fri, 31 Dec 2021 20:25:00 +0000</pubDate><guid>https://www.upwork.com/jobs/Electric-tractor-autonomous-driving_%7E0167609c969729a8eb?source=rss</guid></item></channel></rss>
