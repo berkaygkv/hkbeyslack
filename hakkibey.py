@@ -71,6 +71,7 @@ class HakkiBey():
                     
 
             for val, ts, v in reacted_urls:
+                print(val, ts, v)
                 self.cursor.execute(f"UPDATE Jobs_table SET Label = {reactions_dict[v]} WHERE URL = (?)", val)
                 self.cursor.commit()
                 time.sleep(1.5)
@@ -205,7 +206,7 @@ class HakkiBey():
                             else:
                                 msg = client.chat_postMessage(channel='#upwork', text=entry_text)
                                 self.msg_to_track.update({msg['ts']:entry_timestamp})
-                            time.sleep(0.1)
+                            time.sleep(1)
                     last_time = datetime.datetime.now()
 
                 d+=1
