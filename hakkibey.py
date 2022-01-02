@@ -7,6 +7,7 @@ import datetime
 import pytz
 import jmespath
 import pyodbc
+import html
 
 
 
@@ -71,7 +72,7 @@ class HakkiBey():
         else:
             reacted_urls = []
 
-        time.sleep(1)
+        time.sleep(10)
         return reacted_urls
 
 
@@ -139,16 +140,23 @@ class HakkiBey():
                     posted_val = date_time_obj + hours_added
                     posted_val = posted_val.strftime('%H:%M')
                     try:
-                        cat_val=re.compile(cat).findall(n['summary'])[0].replace('</b>','').replace('\n','').replace('<br','').replace('<br />','').replace('/>','').split(': ')[1]
+                        txt_compile = r'(?<=<b>Category</b>:).+(?=<b>Skills</b>)'
+                        cat_val=re.compile(txt_compile).search(re.sub('\s+',' ',n['summary'])).group().replace('</b>','').replace('\n','').replace('<br','').replace('<br />','').replace('/>','').replace('/>', '')
+                        cat_val = html.unescape(cat_val)
                     except:
                         cat_val=''
 
                     try:
-                        skills_val=re.compile(skills).findall(n['summary'])[0].replace('</b>','').replace('\n','').replace('<br','').replace('<br />','').split(':')[1]
+                        txt_compile = r'(?<=<b>Skills</b>:).+(?=<b>Country</b>)'
+                        skills_val=re.compile(txt_compile).search(re.sub('\s+',' ',n['summary'])).group().replace('</b>','').replace('\n','').replace('<br','').replace('<br />','').replace('/>', '')
+                        skills_val = html.unescape(skills_val)
                     except:
                         skills_val=''
+                        
                     url=n['id']
-                    txt=n['summary'].split('<br />')[0].replace('<br />','').replace('<b>','').replace('&#039;',"'").replace('&nbsp;','')
+                    txt_compile = r'(.+(?=Budget|Hourly))|(.+(?=Posted))'
+                    s = re.compile(txt_compile).search(re.sub('\s+',' ',n['summary'])).group().replace('<br />','').replace('<b>','')
+                    txt = html.unescape(s)
                     target_title = [True if k in n['title'].lower() else False for k in list_of_words]
                     target_cat = [True if k in cat_val.lower().split(',') else False for k in list_of_words]
                     target_skills = [True if k in skills_val.lower().split(',') else False for k in list_of_words]
@@ -189,6 +197,7 @@ class HakkiBey():
                 d+=1
             #print('Labeling...')
             _ = self.get_labeled_ads()
+            time.sleep(2)
 
             
 session = HakkiBey(cleaner=True)
