@@ -58,18 +58,30 @@ class HakkiBey():
         user_client = self.user_client
         reactions_data = user_client.reactions_list(channel='C01DA5NPHDH').data
         filtered_reactions = jmespath.search('items[*].message.text', reactions_data)
+        filtered_types = jmespath.search('items[*].message.reactions[*].name', reactions_data)
+        timestamp_list = jmespath.search('items[*].message.ts', reactions_data)
+        filtered = zip(filtered_reactions, filtered_types, timestamp_list)
+        reactions_dict = {'heart': 1, '+1': 0}
         if filtered_reactions:
-            reacted_urls = [re.compile('(?=<).+(?=\|)').search(k).group().replace('<', '') for k in filtered_reactions if re.compile('(?=<).+(?=\|)').search(k)]
-            timestamp_list = jmespath.search('items[*].message.ts', reactions_data)
-            for i in reacted_urls:
-                self.cursor.execute("UPDATE Jobs_table SET Label = 1 WHERE URL = (?)", i)
+            reacted_urls = []
+            for k, v, ts in filtered:
+                if re.compile('(?=<).+(?=\|)').search(k):
+                    val = re.compile('(?=<).+(?=\|)').search(k).group().replace('<', '')
+                    reacted_urls.append([val, ts, v[0]])
+                    
 
-            for i in enumerate(timestamp_list):
-                try:
-                    user_client.chat_delete(channel='C01DA5NPHDH', ts=i)
-                except:
-                    pass
+            for val, ts, v in reacted_urls:
+                self.cursor.execute(f"UPDATE Jobs_table SET Label = {reactions_dict[v]} WHERE URL = (?)", val)
                 time.sleep(1.5)
+                user_client.chat_delete(channel='C01DA5NPHDH', ts=ts)
+                
+
+            # for i in enumerate(timestamp_list):
+            #     try:
+            #         user_client.chat_delete(channel='C01DA5NPHDH', ts=i)
+            #     except:
+            #         pass
+            #     time.sleep(1.5)
 
         else:
             reacted_urls = []
@@ -105,7 +117,6 @@ class HakkiBey():
         cat=r'Category</b>:.+<br />'
         skills=r'Skills</b>:.+'
         budget=r'Budget</b>:.+'
-        urls=[]
         d=0
         current_local_time = datetime.datetime.now(pytz.timezone('Turkey')).strftime('%H:%M')
         now = datetime.datetime.now()
@@ -163,9 +174,10 @@ class HakkiBey():
                     target_cat = [True if k in cat_val.lower().split(',') else False for k in list_of_words]
                     target_skills = [True if k in skills_val.lower().split(',') else False for k in list_of_words]
                     if any(target_title) or any(target_cat) or any(target_skills):
-                        if url not in urls:
+                        self.cursor.execute('SELECT URL FROM Jobs_table WHERE URL = (?)', url)
+                        urls = self.cursor.fetchone()
+                        if not urls:
                             pr = [utc_time,f":pushpin:\n\n*{n['title']}*\n>\n\n```{txt}```\n\nPosted On: {posted_val}\nBudget: `{hr_val}`\nURL: <{url}|Job *Link*:bomb:>\n\n--------------------------------------------------"]
-                            urls.append(url)
                             entries.append(pr)
                             entry_timestamp = utc_time
                             current_time = datetime.datetime.now(pytz.UTC)
@@ -173,7 +185,7 @@ class HakkiBey():
                             time_passed_in_min = round(time_passed / 60)
                             if time_passed_in_min < self.expired_threshold:
                                 query = f"INSERT INTO Jobs_table (Title, Skills, Category, Description, URL, Label) VALUES (?, ?, ?, ?, ?, ?)" 
-                                self.cursor.execute(query, [n['title'], skills_val, cat_val, txt, url, 0])
+                                self.cursor.execute(query, [n['title'], skills_val, cat_val, txt, url, 2])
 
                 if entries:
                     entries.reverse()
@@ -194,8 +206,7 @@ class HakkiBey():
                                 self.msg_to_track.update({msg['ts']:entry_timestamp})
                             time.sleep(0.1)
                     last_time = datetime.datetime.now()
-                if len(urls) % 250 == 0:
-                    urls=[]
+
                 d+=1
             #print('Labeling...')
             _ = self.get_labeled_ads()

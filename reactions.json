@@ -1,0 +1,161 @@
+{
+    "ok": true,
+    "items": [
+        {
+            "type": "message",
+            "channel": "C01D6LQSQ3F",
+            "message": {
+                "client_msg_id": "9d06b854-d466-4017-900b-d7668ff88142",
+                "type": "message",
+                "text": "<https://towardsdatascience.com/best-python-ides-and-code-editors-you-must-use-in-2020-2303a53db24>",
+                "user": "U01DFU4TBU4",
+                "ts": "1607060394.000200",
+                "team": "T01D6LQSL93",
+                "attachments": [
+                    {
+                        "service_name": "Medium",
+                        "title": "Best Python IDEs and Code Editors You Must Use in 2020",
+                        "title_link": "https://towardsdatascience.com/best-python-ides-and-code-editors-you-must-use-in-2020-2303a53db24",
+                        "text": "Top Python IDEs and Code Editors with noteworthy features",
+                        "fallback": "Medium: Best Python IDEs and Code Editors You Must Use in 2020",
+                        "image_url": "https://miro.medium.com/max/1200/1*UV6lmYquXIyAYfszxXuS4A.jpeg",
+                        "fields": [
+                            {
+                                "title": "Reading time",
+                                "value": "12 min read",
+                                "short": true
+                            }
+                        ],
+                        "ts": 1592926051,
+                        "from_url": "https://towardsdatascience.com/best-python-ides-and-code-editors-you-must-use-in-2020-2303a53db24",
+                        "image_width": 376,
+                        "image_height": 250,
+                        "image_bytes": 130074,
+                        "service_icon": "https://miro.medium.com/fit/c/152/152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png",
+                        "id": 1,
+                        "original_url": "https://towardsdatascience.com/best-python-ides-and-code-editors-you-must-use-in-2020-2303a53db24"
+                    }
+                ],
+                "blocks": [
+                    {
+                        "type": "rich_text",
+                        "block_id": "63ui",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "link",
+                                        "url": "https://towardsdatascience.com/best-python-ides-and-code-editors-you-must-use-in-2020-2303a53db24"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "reactions": [
+                    {
+                        "name": "heavy_check_mark",
+                        "users": [
+                            "U01D31UHZ0E"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "permalink": "https://hbtechhub.slack.com/archives/C01D6LQSQ3F/p1607060394000200"
+            }
+        },
+        {
+            "type": "message",
+            "channel": "C01D6LQSQ3F",
+            "message": {
+                "client_msg_id": "801ece7a-4855-48d4-b3ad-d5730d6a1620",
+                "type": "message",
+                "text": "<!here> readable",
+                "user": "U01DFU4TBU4",
+                "ts": "1605082800.000600",
+                "team": "T01D6LQSL93",
+                "blocks": [
+                    {
+                        "type": "rich_text",
+                        "block_id": "bNZz",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "broadcast",
+                                        "range": "here"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " readable"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "reactions": [
+                    {
+                        "name": "heavy_check_mark",
+                        "users": [
+                            "U01D31UHZ0E"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "permalink": "https://hbtechhub.slack.com/archives/C01D6LQSQ3F/p1605082800000600"
+            }
+        },
+        {
+            "type": "message",
+            "channel": "C01D6LQSQ3F",
+            "message": {
+                "client_msg_id": "95adf6bb-bdbf-4efc-a142-058cae14b279",
+                "type": "message",
+                "text": "Hasan Bey, m\u00fcmk\u00fcnse yar\u0131n \u00f6\u011fleden sonra ufak bi toplant\u0131 talep ediyorum. Csv de yabanc\u0131 harfler(\u015fapkal\u0131 Z gibi) garip g\u00f6r\u00fcn\u00fcyor. Bi \u00fczerinden ge\u00e7elim \u015fu harflerin. Herkese iyi istirahatler dilerim",
+                "user": "U01DSS3K7LL",
+                "ts": "1604364323.004300",
+                "team": "T01D6LQSL93",
+                "blocks": [
+                    {
+                        "type": "rich_text",
+                        "block_id": "vxm",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Hasan Bey, m\u00fcmk\u00fcnse yar\u0131n \u00f6\u011fleden sonra ufak bi toplant\u0131 talep ediyorum. Csv de yabanc\u0131 harfler(\u015fapkal\u0131 Z gibi) garip g\u00f6r\u00fcn\u00fcyor. Bi \u00fczerinden ge\u00e7elim \u015fu harflerin. Herkese iyi istirahatler dilerim"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "reactions": [
+                    {
+                        "name": "100",
+                        "users": [
+                            "U01DFU4TBU4"
+                        ],
+                        "count": 1
+                    },
+                    {
+                        "name": "+1",
+                        "users": [
+                            "U01D31UHZ0E"
+                        ],
+                        "count": 1
+                    }
+                ],
+                "permalink": "https://hbtechhub.slack.com/archives/C01D6LQSQ3F/p1604364323004300"
+            }
+        }
+    ],
+    "response_metadata": {
+        "next_cursor": ""
+    }
+}
