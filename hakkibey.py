@@ -72,6 +72,7 @@ class HakkiBey():
 
             for val, ts, v in reacted_urls:
                 self.cursor.execute(f"UPDATE Jobs_table SET Label = {reactions_dict[v]} WHERE URL = (?)", val)
+                self.cursor.commit()
                 time.sleep(1.5)
                 user_client.chat_delete(channel='C01DA5NPHDH', ts=ts)
                 
