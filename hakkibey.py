@@ -54,25 +54,27 @@ class HakkiBey():
 
 
     def get_labeled_ads(self):
+        time.sleep(10)
         user_client = self.user_client
         reactions_data = user_client.reactions_list(channel='C01DA5NPHDH').data
         filtered_reactions = jmespath.search('items[*].message.text', reactions_data)
         if filtered_reactions:
             reacted_urls = [re.compile('(?=<).+(?=\|)').search(k).group().replace('<', '') for k in filtered_reactions if re.compile('(?=<).+(?=\|)').search(k)]
             timestamp_list = jmespath.search('items[*].message.ts', reactions_data)
-            # for i in enumerate(timestamp_list):
-            #     try:
-            #         user_client.chat_delete(channel='C01DA5NPHDH', ts=i)
-            #     except:
-            #         pass
-            #     time.sleep(1.5)
             for i in reacted_urls:
                 self.cursor.execute("UPDATE Jobs_table SET Label = 1 WHERE URL = (?)", i)
+
+            for i in enumerate(timestamp_list):
+                try:
+                    user_client.chat_delete(channel='C01DA5NPHDH', ts=i)
+                except:
+                    pass
+                time.sleep(1.5)
 
         else:
             reacted_urls = []
 
-        time.sleep(10)
+        
         return reacted_urls
 
 
